@@ -1,0 +1,254 @@
+* {
+    margin:  0 0 auto;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1vh;
+  
+    font-family: sans-serif;    
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main{
+    display: flex;
+    flex: 1;
+  }
+  header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  #ul ,a{
+    display: flex;
+    justify-content: center;
+    
+  }
+  #nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #302e2e;
+  }
+  #nav-ul a{
+    display: flex;
+  }
+  
+  #nav-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #nav-ul ,a{
+    display: flex;
+    justify-content: center;
+    
+  }
+  #nav-li a:hover {
+    background-color: #111;
+    
+  }
+  .left{
+    background: rgb(99, 68, 68);
+    padding: 1em 0 1em 0;
+    flex: 5 5 10px;
+    margin: 0
+  }
+  .left-nav{
+    margin: 10px 10px 20px;
+    padding: 15px 15px 15px;
+   border: 0 solid rgb(36, 33, 33);
+   background: rgb(167, 142, 96);
+  }
+  .social-b{
+    margin: 10px 10px 20px;
+    padding: 15px 15px 15px;
+   border: 0 solid rgb(36, 33, 33);
+   background: rgb(167, 142, 96);
+  }
+  #left-a{
+    display: block;
+    color: rgb(17, 14, 14);
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  #left-a:hover  {
+    color: rgb(233, 182, 14);
+  }
+  .bg{
+    background-image: url(./BG1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .container {
+    
+    padding-top: 2em;
+    max-width: 70%;
+    background: transparent;
+  }
+
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #110E0E;
+    font-weight: 200;
+    font-size: 38px;
+    line-height: 1.5;
+  }
+  
+  main{
+    display: contents;
+    justify-content: center;
+    padding: 1em 0 1em 0;
+    flex: 15 15 200px;
+    background: transparent;
+  
+  }
+  .right{
+    background: rgb(99, 68, 68);
+    padding: 1em 0 1em 0;
+    flex: 7 7 10px;
+  
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+  
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 40%;
+    margin-top: 5px;
+    padding: 10px;
+    background: #1650f0;
+    color: white;
+    font-size: 17px;
+    border: 0 solid rgb(212, 0, 0);
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: rgb(36, 65, 88);
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .search-bar{
+    margin: 10px 10px 20px;
+    padding: 15px 15px 15px;
+   border: 0 solid rgb(36, 33, 33);
+   background: rgb(167, 142, 96);
+  }
+  
+  #links{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    
+    padding: 0;
+  }
+  .links{
+    display: contents;
+  
+    
+  }
+  a{
+    display: contents;
+  
+    color: #110E0E;
+  }
+  a:link{
+    
+    text-decoration: none;
+    
+  }
+  .widget{
+    margin: 10px 10px 20px;
+    padding: 15px 15px 15px;
+   border: 0 solid rgb(36, 33, 33);
+   background: rgb(167, 142, 96);
+   
+  }
+  #right-text{
+    display: flex;
+    margin-bottom: 10px;
+    
+    text-align: unset;
+  }
+  .widget a:hover {
+    color: rgb(233, 182, 14);
+  }
+  
+  .Iv-img , .CH-img{
+    margin: 10px 10px auto;
+    height: 300px;
+    width: 300px;
+  }
+  .images{
+    display: block;
+    justify-content: center;
+    margin: 10px 10px 20px;
+    padding: 15px 15px 15px;
+    border: 0 solid rgb(36, 33, 33);
+    background: rgb(167, 142, 96);
+  }
+  .video{
+   
+    justify-content: center;
+    margin: 10px 10px 20px;
+    padding: 15px 15px 15px;
+    border: 0 solid rgb(36, 33, 33);
+    background: rgb(167, 142, 96);  
+  }
+  footer{
+  background: rgb(17, 14, 14);
+  text-align: center;
+  padding: 15px 0;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .footer{
+    color: rgb(233, 182, 14) ;
+    font-size: 28px;
+  }
+  @media all and (max-width: 550px){
+     .main{
+    flex-direction: column;
+  }
+  main{
+    padding: 5em 0 5em 0;
+  }
+  }
+  img{
+    height: 100px;
+    width: 100px;
+  }
